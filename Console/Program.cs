@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Reflection;
 
 namespace ConsoleApp
 {
@@ -7,7 +9,6 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine("Start");
-
 
 
             Console.ReadLine();

@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "Console\ConsoleApp.csproj", "{5DD83381-5A5A-4CE6-8956-EEF065004103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "Console\ConsoleApp.csproj", "{5DD83381-5A5A-4CE6-8956-EEF065004103}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrackMe", "CrackMe", "{B0C2810C-ABC6-4F22-911A-4AE1944DFD08}"
+	ProjectSection(SolutionItems) = preProject
+		CrackMe\CrackMe.exe = CrackMe\CrackMe.exe
+		CrackMe\readme.txt = CrackMe\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dump", "Dump", "{9888EF14-411E-4824-9B29-E3E6952A5B5B}"
+	ProjectSection(SolutionItems) = preProject
+		CrackMe\Dump\CrackMe.exe.dll = CrackMe\Dump\CrackMe.exe.dll
+		CrackMe\Dump\CrackMe.exe.il = CrackMe\Dump\CrackMe.exe.il
+		CrackMe\Dump\CrackMe.exe.pdb = CrackMe\Dump\CrackMe.exe.pdb
+		CrackMe\Dump\CrackMe.exe.res = CrackMe\Dump\CrackMe.exe.res
+		CrackMe\Dump\CrackMe.Form1.resources = CrackMe\Dump\CrackMe.Form1.resources
+		CrackMe\Dump\CrackMe.Properties.Resources.resources = CrackMe\Dump\CrackMe.Properties.Resources.resources
+		CrackMe\Dump\Forced-CrackMe.exe = CrackMe\Dump\Forced-CrackMe.exe
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +35,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9888EF14-411E-4824-9B29-E3E6952A5B5B} = {B0C2810C-ABC6-4F22-911A-4AE1944DFD08}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27BC1E05-3765-4F1D-88DA-A7433A366BA5}
