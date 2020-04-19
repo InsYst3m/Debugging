@@ -663,7 +663,7 @@
     IL_0117:  ldarg.0
     IL_0118:  ldfld      string[] CrackMe.Form1::a
     IL_011d:  call       instance bool CrackMe.Form1::eval_a(string[])
-    IL_0122:  brfalse.s   IL_012d
+    IL_0122:  brtrue.s   IL_012d
 
     IL_0124:  br.s       IL_0126
 

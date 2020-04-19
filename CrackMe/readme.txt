@@ -9,4 +9,5 @@ use ilasm to compile new exe
 Get code cmd:
 	cd "C:\Users\InsYst3m~\Source\Repos\Debugging\Console\bin\Debug\netcoreapp3.1\runtimes\win-x64\native"
 	ilasm /exe /pdb /debug "C:\Users\InsYst3m~\Source\Repos\Debugging\CrackMe\Dump\CrackMe.exe.il"
-		
+	
+check Forced-CrackMe.exe
